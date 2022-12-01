@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #screen="DVI-D-0"
-screen="XWAYLAND1"
+screen="HDMI-2"
 
 descr=$(xrandr | grep "$screen")
 if echo "$descr" | grep disconnected
